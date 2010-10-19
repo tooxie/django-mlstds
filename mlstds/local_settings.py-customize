@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+DEBUG = True
+TEMPLATE_DEBUG = DEBUG
+
+ADMINS = (
+    (u'Your name', 'name@email.com'),
+)
+
+MANAGERS = ADMINS
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
+    }
+}
